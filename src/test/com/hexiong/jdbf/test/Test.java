@@ -3,8 +3,9 @@
  * <p>Description: 测试DBF文件的读写</p>
  * <p>Copyright: Copyright (c) 2004~2012</p>
  * <p>Company: iihero.com</p>
+ *
  * @author : He Xiong
- * @version 1.1
+ * @version 1.3
  */
 
 package test.com.hexiong.jdbf.test;
@@ -20,8 +21,7 @@ public class Test
     {
     }
 
-    public static void main(String args[])
-        throws Exception
+    public static void main(String args[]) throws Exception
     {
         //DBFReader dbfreader = new DBFReader((new URL("http://www.svcon.com/us48st.dbf")).openStream());
         //DBFReader dbfreader = new DBFReader("F:\\work\\book2.dbf");
