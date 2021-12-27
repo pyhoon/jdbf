@@ -1,30 +1,22 @@
 /**
- * <p>
- * Title: java访问DBF文件的接口
- * </p>
- * <p>
- * Description: 测试DBF文件的读写
- * </p>
- * <p>
- * Copyright: Copyright (c) 2004~2012
- * </p>
- * <p>
- * Company: iihero.com
- * </p>
- * 
+ * <p>Title: java访问DBF文件的接口</p>
+ * <p>Description: 测试DBF文件的读写</p>
+ * <p>Copyright: Copyright (c) 2004~2012</p>
+ * <p>Company: iihero.com</p>
+ *
  * @author : He Xiong
- * @version 1.1
+ * @version 1.3
  */
 
 package test.com.hexiong.jdbf.test;
-
-import java.nio.charset.Charset;
-import java.util.Date;
 
 import com.hexiong.jdbf.DBFReader;
 import com.hexiong.jdbf.DBFWriter;
 import com.hexiong.jdbf.JDBFException;
 import com.hexiong.jdbf.JDBField;
+
+import java.nio.charset.Charset;
+import java.util.Date;
 
 public class TestWrite
 {
@@ -64,9 +56,9 @@ public class TestWrite
         Object[][] records = { { "1", "hexiong ", new Integer(500), new Double(500.123), new Date() },
                 { "2", " hefang ", new Integer(600), new Double(600.234), new Date() },
                 { "3", "hexi01234567890123456789012345678901234567890123456789"
-                       +"0123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789"
-                       +"0123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789", 
-                    new Integer(600), new Double(600.234), new Date() },
+                        +"0123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789"
+                        +"0123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789",
+                        new Integer(600), new Double(600.234), new Date() },
                 { "4", "heqiang", new Integer(700), new Double(700.456), new Date() } };
 
         for (int i = 0; i < records.length; i++)
