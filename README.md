@@ -1,5 +1,5 @@
 # jdbf
-A java reader writer for DBF database file: jdbf
+A java reader/writer for DBF database file
 
 Source forked from: https://code.google.com/archive/p/jdbf/
 
